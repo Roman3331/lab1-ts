@@ -149,8 +149,8 @@ function triangle(
     `a = ${a.toFixed(2)}` +
     `b = ${b.toFixed(2)}` +
     `c = ${c.toFixed(2)}` +
-    `α = ${alpha.toFixed(2)}°` +
-    `β = ${beta.toFixed(2)}°`
+    `alpha = ${alpha.toFixed(2)}°` +
+    `beta = ${beta.toFixed(2)}°`
   );
 
   return "success";
