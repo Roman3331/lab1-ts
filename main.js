@@ -114,8 +114,8 @@ function triangle(value, type, value2, type2) {
     console.log("a = ".concat(a.toFixed(2)) +
         "b = ".concat(b.toFixed(2)) +
         "c = ".concat(c.toFixed(2)) +
-        "\u03B1 = ".concat(alpha.toFixed(2), "\u00B0") +
-        "\u03B2 = ".concat(beta.toFixed(2), "\u00B0"));
+        "alpha = ".concat(alpha.toFixed(2), "\u00B0") +
+        "beta = ".concat(beta.toFixed(2), "\u00B0"));
     return "success";
 }
 triangle(3, "leg", 4, "leg");
